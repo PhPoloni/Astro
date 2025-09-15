@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+.sobre {
+    padding: 3% 0% 0% 10%;
+}
+
+.sobre a {
+    
+    font-size: 23px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 3%;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(38, 38, 146);;
+}
+
+.textos {
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.textos p {
+    font-size: 25px;
+    width: 60%;
+}
+
+.textos h2 {
+    margin-top: 3%;
+    padding: 2% 20% 0% 19%;
+    border-top: solid 3px rgb(38, 38, 146);
+}
+
+.fotos {
+    padding: 4% 0%;
+}
+
+.nossasfotos1 {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.nossasfotos2 {
+    display: flex;
+    justify-content: center;
+    padding: 6% 0% 0% 0%;
+    gap: 15%;
+}
+
+.nossasfotos1 img, .nossasfotos2 img {
+    border-radius: 100%;
+    border: solid 1px black;
+}
+
+figure{
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: solid 3px rgb(38, 38, 146);
+}
+
+.imgfinal {
+    display: flex;
+    justify-content: center;
+    margin: -2% 0% 0% 0%;
+}
+
+.assunto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

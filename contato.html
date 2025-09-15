@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos contate</title>
+
+    <link rel="shortcut icon" href="imagens/logonovo.png">
+
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body background="imagens/degrade.avif">
+    <nav>
+        <img class="logo" src="imagens/logonovo.png" alt="logo">
+            <a href="loja.html"> <li>Loja</li></a>
+            <a href="biblioteca.html"><li>Biblioteca</li></a>
+            <a href="perfil.html"><li>Perfil</li></a>
+            <a href="sobre.html"><li class="selecionado">Sobre</li></a> 
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="sobre">
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="contato.html">Nos Contate</a>
+        </div>
+
+        <div class="textos">
+            <p>
+                Caso deseje entrar em contato direto conosco para enviar um jogo que você desenvolveu,
+                ou nos perguntar algo, basta preencher o formulário abaixo:
+            </p>
+        </div>
+
+        <form action="contato.html" method="get"> 
+                <label class="label-50">
+                    Nome: <input type="text" name="txt_nome" placeholder="Seu nome completo" required/>
+                </label>
+                <label class="label-50">
+                    Email: <input type="email" name="txt_email" placeholder="Seu e-mail" required/>
+                </label>
+                <label>
+                    <textarea name="txt_assunto" placeholder="Assunto" required></textarea>
+                </label>
+                <p class="assunto"> Assunto: </p>
+
+                <button>Enviar</button>
+        </form>
+        
+        <div class="quadradopreto">
+            <h1>Perguntas Frequentes</h1>
+        
+            <div class="perguntas">
+                <h2>
+                    <span class="esquerda">P: Na plataforma só tem jogos brasileiros?</span> 
+                    P: Vocês possuem algum tipo de parceria? 
+                </h2>
+            </div>    
+                
+            <div class="perguntas">    
+                <h2>
+                    <span class="esquerda2">R: Sim, nossa plataforma é totalmente dedicada à jogos brasileiros. </span>
+                    R: No momento não, mas planejamos entrar em contato com algumas desenvolvedoras 
+                    para oferecermos seus jogos em um preço mais acessivel.
+                </h2>
+            </div>        
+                
+            <div class="perguntas">
+                <h2>
+                    <span class="esquerda3">P: Como vocês definem se um jogo é brasileiro?</span>
+                    P: Qual o seu diferencial entre as  outras plataformas de jogos?
+                </h2>
+            </div>        
+                 
+            <div class="perguntas">    
+                <h2>
+                    <span class="esquerda4">R: Não temos uma regra exata para definir se um jogo é brasileiro ou não, mas precisa ser algo 
+                    entre: um estúdio ser brasileiro ou a maioria das pessoas que desenvolveram o jogo serem
+                    brasileiras.No final, nós analisamos cada caso. </span>
+                    R: Nós focamos em uma comunidade especifica, que nós também fazemos parte, 
+                    o que faz a gente entender a dificuldade de trabalhar com jogos no Brasil, e também de apoiar 
+                    estes jogos, diferentemente da Steam, Epic, Gog que focam no mercado mundial, nós
+                    focamos apenas no nosso mercado, aliviando o custo dos jogos e facilitando seu apoio. 
+                 </h2>    
+            </div> 
+    </main>
+</body>

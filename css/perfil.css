@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+
+main {
+    position: relative;
+}
+
+.perfil {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    border-bottom: solid 3px rgb(38, 38, 146);
+    border-top: solid 3px rgb(38, 38, 146);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2% 11.5% 0% 11.5%;
+    position: relative;
+}
+
+.lapis {
+    position: absolute;
+    right: 0%;
+}
+
+
+.icone {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 100%;
+    top: 22%;
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    padding-top: 3%;
+    font-size: 30px;
+}
+
+.descricao {
+    margin: 1% 11.5% 0% 11.5%;
+    padding-bottom: 1%;
+    border-bottom: solid 3px rgb(38, 38, 146);
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.jogos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    color: white;
+    padding: 5px 0px 0px 12px;
+}
+
+.fundopequeno {
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.Gugaster, .Ph, .Xamps {
+    border-radius: 80%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 61%;
+    margin: 1% 0% 0% 0%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.links a {
+    color: white;
+    border-bottom: solid 3px rgb(38, 38, 146);
+    font-size: 22px;
+}
+
+button {
+    margin: 2% 0% 3% 14%;
+}

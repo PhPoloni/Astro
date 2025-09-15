@@ -1,0 +1,43 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-top: solid 3px rgb(38, 38, 146);
+    margin: 30px 150px 30px 150px;
+}
+
+.recentes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0% 10.5%;
+}
+
+.jogosrecentes {
+    height: 117.7px;
+    width: 205.4px;
+    transition: 0.1s;
+    box-shadow: 1px 1px #000000;
+}
+
+.jogos {
+    display: flex;
+    gap: 2rem;
+    margin: 0% 0% 4% 12%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.capa {
+    height: 176.5px;
+    width: 308px;
+    transition: 0.1s;
+    box-shadow: 1px 1px #000000;
+}
+
+.capa:hover, .jogosrecentes:hover {
+    transform: scale(1.01);
+}
